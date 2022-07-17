@@ -1,7 +1,6 @@
-let dollarInput = document.querySelector("[name = 'dollar']");
-let result = document.querySelector(".result");
-
-dollarInput.addEventListener("input", function () {
-    let egyption = dollarInput.value * 18.91;
-    result.textContent = `{${dollarInput.value}} USD Dollar = {${egyption.toFixed(2)}} Egyption Pound`;
-})
+let divOne = document.querySelector(".one");
+divOne.setAttribute("title", "one");
+divOne.innerHTML = "one";
+let divTwo = document.querySelector(".two");
+divTwo.setAttribute("title", "two")
+divTwo.innerHTML = "Two 2"
