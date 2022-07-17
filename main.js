@@ -1,7 +1,7 @@
-let imgarrays = document.images;
+let dollarInput = document.querySelector("[name = 'dollar']");
+let result = document.querySelector(".result");
 
-for (i = 0; i < imgarrays.length; i++) {
-    document.images[i].src = "https://elzero.org/wp-content/themes/elzero/imgs/logo.png";
-    document.images[i].alt = "Elzero logo"
-}
-
+dollarInput.addEventListener("input", function () {
+    let egyption = dollarInput.value * 18.91;
+    result.textContent = `{${dollarInput.value}} USD Dollar = {${egyption.toFixed(2)}} Egyption Pound`;
+})
