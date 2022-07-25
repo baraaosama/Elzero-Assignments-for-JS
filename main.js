@@ -1,6 +1,8 @@
-let myNumbers = [1, 2, 3, 4, 5];
+let mySkills = ["HTML", "CSS", "JavaScript", ["PHP", "Python", ["Django", "Laravel"]]];
 
 // Write Your Destructuring Assignment Here
-let [a, , , , e] = myNumbers;
+let [a, b, c, [d, e, [f, g]]] = mySkills;
 
-console.log(a * e); // 5
+console.log(`My Skills: ${a}, ${b}, ${c}, ${d}, ${e}, ${f}, ${g}`);
+
+// My Skills: HTML, CSS, JavaScript, PHP, Python, Django, Laravel
