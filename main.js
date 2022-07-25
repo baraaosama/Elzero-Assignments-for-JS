@@ -1,13 +1,17 @@
-let arr1 = ["Ahmed", "Sameh", "Sayed"];
-let arr2 = ["Mohamed", "Gamal", "Amir"];
-let arr3 = ["Haytham", "Shady", "Mahmoud"];
-let newarr = [arr1, arr3];
-
-let [[c, ,], [, a, b]] = newarr;
-
-// Play With Arrays To Prepare For Destructuring
+const member = {
+    age: 30,
+    working: false,
+    country: "Egypt",
+    hobbies: ["Reading", "Swimming", "Programming"],
+};
 // Write Your Destructuring Assignment Here
+({ age: a, working: w, country: c, hobbies: [h1, , h3] } = member);
 
-console.log(`My Best Friends: ${a}, ${b}, ${c}`);
+console.log(`My Age Is ${a} And Iam ${w ? "" : "Not"} Working`);
+// My Age Is 30 And Iam Not Working
 
-// My Best Friends: Shady, Mahmoud, Ahmed
+console.log(`I Live in ${c}`);
+// I Live in Egypt
+
+console.log(`My Hobbies: ${h1} And ${h3}`);
+  // My Hobbies: Reading And Programming
