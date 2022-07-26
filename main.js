@@ -1,2 +1,3 @@
-let myFriends = ["Osama", "Ahmed", "Sayed", "Sayed", "Mahmoud", "Osama"];
-console.log(Array.from(new Set(myFriends)).sort());
+let theNumber = 100020003000;
+
+console.log([...new Set(theNumber.toString())].filter((e) => e != 0).map((e) => +e).join(""));
