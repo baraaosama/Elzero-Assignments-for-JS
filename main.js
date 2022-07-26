@@ -1,3 +1,11 @@
-let setOfNumbers = new Set([10]);
-setOfNumbers.add(20).add(setOfNumbers.size);
-console.log(setOfNumbers);
+let myInfo = {
+    username: "Osama",
+    role: "Admin",
+    country: "Egypt",
+};
+let newMap = new Map(Object.entries(myInfo));
+console.log(newMap);
+console.log(newMap.size);
+console.log(newMap.has("role"));
+
+
