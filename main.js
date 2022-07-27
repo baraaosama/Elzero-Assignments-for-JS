@@ -1,3 +1,3 @@
-let specialNames = "Os10O OsO Os100O Osa100O Os1000 Os100m";
-let reg = /\bos\d*o\b/ig;
-console.log(specialNames.match(reg))
+let phone = "+(995)-123 (4567)";
+let reg = /\+\(\d+\)-\d+ \(\d+\)/ig;
+console.log(phone.match(reg))
