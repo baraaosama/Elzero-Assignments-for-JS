@@ -1,4 +1,3 @@
-let ip = "2001:db8:3333:4444:5555:6666:7777:8888";
-
-let ipreg = /\d+:\w+\d:\d+:\d+:\d+:\d+:\d+:\d+/ig;
-console.log(ip.match(ipreg));
+let specialNames = "Os10O OsO Os100O Osa100O Os1000 Os100m";
+let reg = /\bos\d*o\b/ig;
+console.log(specialNames.match(reg))
