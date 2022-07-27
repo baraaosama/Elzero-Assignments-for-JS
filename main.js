@@ -1,3 +1,4 @@
-let n1 = [10, 30, 10, 20];
-let n2 = [30, 20, 10];
-console.log([...n1, ...n2].length * Math.max(...n2)) //210
+let ip = "2001:db8:3333:4444:5555:6666:7777:8888";
+
+let ipreg = /\d+:\w+\d:\d+:\d+:\d+:\d+:\d+:\d+/ig;
+console.log(ip.match(ipreg));
