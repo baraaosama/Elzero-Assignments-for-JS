@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "ahmed",
+        "dep": "science",
+        "title": "computer",
+        "content": "anything"
+    },
+    {
+        "id": 2,
+        "name": "mohamed",
+        "dep": "science",
+        "title": "artificial",
+        "content": "anythingElse"
+    },
+    {
+        "id": 3,
+        "name": "mahmoud",
+        "dep": "programming",
+        "title": "c++",
+        "content": "also anything"
+    },
+    {
+        "id": 4,
+        "name": "baraa",
+        "dep": "medicine",
+        "title": "stomach",
+        "content": "anything ,too"
+    },
+    {
+        "id": 5,
+        "name": "slman",
+        "dep": "maths",
+        "title": "numbers",
+        "content": "anything-else"
+    }
+]
